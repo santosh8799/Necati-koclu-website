@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Archivo;
+  
+}
+
+#main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  padding: 0 1vw;
+
+}
+#main #nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  padding: 80px 120px;
+  padding-top: 8vw;
+}
+#nav #left-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 20px;
+}
+#left-content h2 {
+  color: aliceblue;
+}
+#left-content h3 {
+  color: rgba(255, 255, 255, 0.378);
+}
+#nav #right-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-right: 20px;
+}
+#right-content h2 {
+  color: rgba(255, 255, 255, 0.378);
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+#main #container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5vw;
+  width: 100%;
+  height: 30vw;
+  position: relative;
+}
+#left-container {
+  width: 50%;
+  height: 30vw;
+  background: linear-gradient(to right, #0e0d0d, #606057);
+  padding: 0px 3.2vw;
+  border-radius: 30px;
+  box-shadow: 10px 0 10px rgb(47, 45, 45);
+}
+.leftContainer-top {
+  width: 100%;
+  height: 5vw;
+  margin-top: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-one {
+  width: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-one .text h3 {
+  color: white;
+  height: 0.5vw;
+}
+.left-one .text h4 {
+  color: rgb(83, 80, 80);
+}
+.photo {
+  width: 3.5vw;
+  height: 3.5vw;
+  border-radius: 50%;
+  background-image: url(https://necatikcl.dev/images/card-hello-memoji.png);
+  background-size: cover;
+}
+.left-second {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1.5vw;
+}
+.box {
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 10px;
+  border: 2px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box i {
+  font-size: 1.6vw;
+  color: white;
+}
+
+#left-container .left-content {
+  width: 80%;
+  margin-top: 2vw;
+}
+.left-content h1 {
+  font-size: 3.5vw;
+  color: white;
+}
+.left-content p {
+  font-size: 1.5vw;
+  color: rgb(158, 151, 151);
+  margin-top: 2vw;
+  line-height: 2.5vw;
+}
+#right-container {
+  width: 28%;
+  height: 30vw;
+  background-color: #ffd850 ;
+  border-radius: 30px;
+  background-image: url(https://necatikcl.dev/images/card-hello-right-memoji.png);
+  background-size: cover;
+  background-position: top;
+  box-shadow: 10px 0 10px rgb(40, 39, 39);
+}
+
+.container2 {
+  width: 100%;
+  height: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  padding: 1vw 1vw;
+}
+.container2-left {
+  width: 40%;
+  height: 100%;
+  background-image: url(https://necatikcl.dev/images/works/cryptosea.png);
+  background-size: cover;
+  border-radius: 40px;
+}
+.container2-right {
+  width: 40%;
+  height: 100%;
+  background-image: url(https://necatikcl.dev/images/works/mintlify.png);
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.container3 {
+  width: 100%;
+  height: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  padding: 1vw 1vw;
+}
+.container3-left {
+  width: 40%;
+  height: 100%;
+  background-image: url(https://necatikcl.dev/images/works/wiza.png);
+  background-size: cover;
+  border-radius: 40px;
+}
+.container3-right {
+  width: 40%;
+  height: 100%;
+  background-image: url(https://necatikcl.dev/images/works/index.png);
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.container4 {
+  width: 100%;
+  height: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  padding: 1vw 1vw;
+}
+.container4-left {
+  width: 40%;
+  height: 100%;
+  background-image: url(https://necatikcl.dev/images/works/hypercal.png);
+  background-size: cover;
+  border-radius: 40px;
+}
+.container4-right {
+  width: 40%;
+  height: 100%;
+  background-image: url(https://necatikcl.dev/images/works/dimension.png);
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.container5 {
+  width: 100%;
+  height: 35vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  padding: 1vw 1vw;
+}
+.container5-left {
+  width: 40%;
+  height: 100%;
+  background-image: url(https://necatikcl.dev/images/works/reflect.png);
+  background-size: cover;
+  border-radius: 40px;
+}
+.container5-right {
+  width: 40%;
+  height: 100%;
+  background-image: url(https://necatikcl.dev/images/works/wope.png);
+  background-size: cover;
+  border-radius: 40px;
+}
+
+.container6 {
+  width: 100%;
+  height: 27vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  padding: 1vw 1vw;
+}
+.container6-left {
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(to right,#050206,#68471f);
+  background-size: cover;
+  border-radius: 40px;
+}
+.left-text{
+  width: 45%;
+  height: 100%;
+  padding: 3vw;  
+}
+.left-text h5{
+  font-size: 1vw;
+  font-weight: 200;
+  color: #898080da;
+}
+.left-text h2{
+  font-size: 2vw;
+  font-weight: 400;
+  margin-top: 1vw;
+  color: #fff;
+}
+.left-text h4{
+  font-size: 1.4vw;
+  font-weight: 400;
+  margin-top: 1.8vw;
+  color: #ffffffc7;
+  line-height: 1.8vw;
+}
+.container6-right {
+  width: 20%;
+  height: 100%;
+  background:linear-gradient(to bottom,#EA460D,#FA921C) ;
+  border-radius: 40px;
+  position: relative;
+}
+
+.container6-right img{
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+background-position: 0% -50%;
+position: absolute;
+bottom: 0;
+right: -10%;
+}
+
+.container6-right .text{
+  margin: 2.5vw;
+  width: 100%;
+  height: 10vw;
+  position: absolute;
+}
+.text h2{
+  color: #fff;
+  font-size: 1.8vw;
+  letter-spacing: 0.1vw;
+  font-weight: 200;
+}
+.text h4{
+  color: #ffffffbf;
+  font-size: 1.05vw;
+  letter-spacing: 0.2px;
+  font-weight: 200;
+  width: 10vw;
+  margin-top: 1vw;
+}
